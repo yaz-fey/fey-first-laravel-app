@@ -7,16 +7,31 @@ php.ini dosyasını açın ve ";" kaldırın
 "extension=zip" şeklinde olmalıdır.
 
 
+
+
 // bu komut ile laraveli pcye global olarak kuruyoruz.
+
 "composer global require laravel/installer"
 
+
+
+
 //bu komut ile ilk laravel projemizi istediğimiz dizinde oluşturuyoruz.
+
 laravel new example-app
 
+
+
+
 //prolemizin dizinine gidiyoruz. 
+
 cd example-app
  
+ 
+ 
+ 
 //oluşturduğumuz projemizi çalıştırıyoruz.
+
 php artisan serve
 
 
