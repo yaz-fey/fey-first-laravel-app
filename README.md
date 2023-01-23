@@ -1,3 +1,28 @@
+Kurulum
+
+//windows laravel kurmadan önce;
+
+php.ini dosyasını açın ve ";" kaldırın
+";extension=zip" ifadesi 
+"extension=zip" şeklinde olmalıdır.
+
+
+// bu komut ile laraveli pcye global olarak kuruyoruz.
+"composer global require laravel/installer"
+
+//bu komut ile ilk laravel projemizi istediğimiz dizinde oluşturuyoruz.
+laravel new example-app
+
+//prolemizin dizinine gidiyoruz. 
+cd example-app
+ 
+//oluşturduğumuz projemizi çalıştırıyoruz.
+php artisan serve
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
